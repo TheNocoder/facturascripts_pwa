@@ -1,0 +1,54 @@
+{
+    "short_name": "FacturaScripts",
+    "name": "FacturaScripts",
+    "description": "FacturaScripts contabilidad y facturación libre",
+    "id": "/?pwa=1",
+    "start_url": "/?pwa=1",
+    "display": "standalone",
+    "scope": "/",
+    "background_color": "#FFFFFF",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/pwa/icons/16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/pwa/icons/32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/pwa/icons/64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "/pwa/icons/192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/pwa/icons/512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/pwa/icons/512-maskable.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/pwa/icons/120.png",
+            "type": "image/png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "/pwa/icons/180.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        }
+    ]
+}

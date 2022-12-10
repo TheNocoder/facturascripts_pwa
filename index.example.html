@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--    
+            Elementos mínimos para PWA, incluir en todas las páginas
+            
+            https://github.com/TheNocoder/facturascripts_pwa 
+        -->        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="FacturaScripts">
+        <meta name="apple-mobile-web-app-title" content="FacturaScripts">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="manifest" href="/pwa/manifest.json"> 
+    </head>
+    <body>
+        
+        <!-- Incluir al final de BODY -->
+        <script>
+            window.addEventListener('load', function() {
+                if ('serviceWorker' in navigator) {
+                    serviceWorkerReg = navigator.serviceWorker.register('/service-worker.js');
+                } else {
+                    serviceWorkerReg = false;
+                }
+            });
+        </script>    
+    </body>
+</html>
+    
