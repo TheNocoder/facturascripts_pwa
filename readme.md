@@ -14,7 +14,7 @@ Por lo tanto en FacturaScripts necesitaremos modificar las plantillas HTML para 
 
 Estas modificaciones sirven para convertir cualquier Web en PWA, solo tenéis que cambiar el nombre de la PWA y los iconos.
 
-## Sin modificacar FacturaScripts
+## Sin modificar FacturaScripts
 
 Alternativamente podéis convertir vuestra instalación de FacturaScripts sin tocar el código mediante un IFRAME, aquí se explica: https://github.com/TheNocoder/pwa-via-iframe
 
