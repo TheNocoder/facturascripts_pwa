@@ -1,5 +1,5 @@
-FacturaScripts as PWA
-=====================
+FacturaScripts como APP
+=======================
 
 Modificaciones mínimas necesarias para que FacturaScripts funcione como Aplicación Web Progresiva o PWA.
 
